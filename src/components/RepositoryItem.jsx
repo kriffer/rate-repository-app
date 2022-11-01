@@ -12,6 +12,7 @@ const RepositoryItem = ({ item }) => {
     flexPartA: {
       flexDirection: "row",
       alignItems: "center",
+   
     },
     flexPartAA: {
       flexDirection: "column",
@@ -22,7 +23,7 @@ const RepositoryItem = ({ item }) => {
     },
     flexPartB: {
       flexDirection: "row",
-      paddingTop: 10,
+      padding: 10,
       alignItems: "center",
       justifyContent: "space-around",
     },
