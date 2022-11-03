@@ -59,7 +59,6 @@ const ItemSeparator = () => <View style={styles.separator} />;
 const RepositoryList = () => {
 
   const renderItem = ({ item }) => {
-    console.log(item)
     return (
       <RepositoryItem item={item}/>
     );
